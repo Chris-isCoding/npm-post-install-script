@@ -1,0 +1,22 @@
+{
+  "name": "post-install",
+  "version": "1.0.0",
+  "description": "script to install other project dependencies",
+  "main": "npm-install.js",
+  "scripts": {
+    "postinstall": "node npm-install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-isCoding/npm-post-install-script.git"
+  },
+  "author": "Chris K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris-isCoding/npm-post-install-script/issues"
+  },
+  "homepage": "https://github.com/Chris-isCoding/npm-post-install-script#readme",
+  "dependencies": {
+    "glob": "^7.2.0"
+  }
+}
